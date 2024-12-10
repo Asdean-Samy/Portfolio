@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+}
+.bloc {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+.bloc video{
+	position:absolute ;
+	min-width: 100%;
+	min-height: 100%;
+	top: 50%;
+	left: 50%;
+	z-index: -100;
+	transform: translate(-50%, -50%);
+}
+.bloc::before{
+	position:  absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	z-index: -99;
+	background-color: #00000082;
+}
+a:link{
+	color: blueviolet;
+}
+a:visited{
+	color: rgb(255, 255, 255);
+}
+a:hover{
+	color: rgb(3, 52, 85);
+}
+h1{
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.textabout{
+	margin-left: 100px;
+	height: 350px;
+}
+.navbar{
+	width: 525px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.projects{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.box{
+	margin: 10px 10px;
+	background-color: white;
+	height: 300px;
+	width: 500px;
+}
+
+.boxabout{
+	margin: 10px 10px;
+	background-color: white;
+	height: 300px;
+	width: 500px;
+}
+
+.abouts{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+.about{
+	display: flex;
+	margin-left: 65%;
+	justify-content: space-around;	
+}
+.mainspace{
+	margin-left: 35px;
+	margin-right: 35px;
+}
+.inuse{
+	font-size: 24px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+.alignRight{
+	float: right;
+	margin-right: 250px;
+}
+.logo{
+	margin: 10px 10px;
+	background-color: white;
+	height: 150px;
+	width: 400px;
+}
+.HomeBox{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.textHome{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
