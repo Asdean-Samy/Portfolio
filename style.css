@@ -45,6 +45,10 @@ p{
 	color: white;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+li{
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .textabout{
 	margin-left: 100px;
 	height: 350px;
@@ -98,7 +102,7 @@ p{
 }
 .alignRight{
 	float: right;
-	margin-right: 250px;
+	margin-right: 200px;
 }
 .logo{
 	margin: 10px 10px;
@@ -112,8 +116,18 @@ p{
 	justify-content: space-around;
 }
 .textHome{
-	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+
 	align-items: center;
 	justify-content: space-around;
+	
+}
+.textprojet{
+	margin-left: 25%;
+	margin-right: 25%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
 	
 }
